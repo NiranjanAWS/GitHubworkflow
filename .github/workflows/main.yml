@@ -28,12 +28,12 @@ jobs:
             cd ~
 
             echo "🧹 Cleaning old files..."
-            rm -rf githubworkflow
+            rm -rf GitHubworkflow
 
             echo "📦 Cloning repo..."
             git clone https://github.com/NiranjanAWS/GitHubworkflow.git
 
-            cd githubworkflow/backend
+            cd GitHubworkflow/backend
 
             echo "🔧 Installing Node.js if not present..."
             if ! command -v node > /dev/null; then
